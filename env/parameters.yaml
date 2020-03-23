@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:lionpuzzle/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:lionpuzzle/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:lionpuzzle/prow:hmacToken
+segmentWriteKey: vault:lionpuzzle:segmentWriteKey
